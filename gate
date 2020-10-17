@@ -25,7 +25,9 @@ class Gate:
             line(910, 320, 995, 350)
         else:
             strokeWeight(8)
-            line(910, 330, 995, 330)    
-
+            line(910, 330, 995, 330) 
+            
+        line(910, 825, 995, 850)
+        
 obj = Gate(10,True)
 obj.body() 
