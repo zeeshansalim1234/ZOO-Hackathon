@@ -1,7 +1,8 @@
-# ZOO-Hackathon
+# ZOO-Hackathon 
 
 Parking Lot simulation 
 
+Run the animation.pyde file on processing
 
 Created by :
 
