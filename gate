@@ -1,0 +1,26 @@
+class gate:
+    
+    status = True
+    spaces = 0
+    
+    def __init__(self,stat,sp):
+        self.status = stat
+        self.spaces = sp
+            
+    void drawgate():
+        fill(255)
+        strokeWeight(2)
+        rect(930,340,100,20)
+        rect(930,880,100,20)
+        fill(100)
+        text("Entry",930,370)
+        text("Exit",930,910)
+        text("Spaces"+sp,930,390)
+        
+        if(stat == true):
+            line(1050,340,1100,340)
+        else:
+            line(1050,340,1100,300)
+            
+        line(1050,880,1100,880)
+        
