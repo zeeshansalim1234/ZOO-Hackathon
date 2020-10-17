@@ -1,10 +1,10 @@
 #def parkinglot():
-    
-rand=int(random(1,5))
-print(rand)
+x=0
+y=0
 
 rand=int(random(1,5))
-print(rand)
+
+    
 
 def setup():
     
@@ -16,9 +16,12 @@ def setup():
 
 def draw():
     
+    delay(100)
     s1.street_design()
     obj.body() 
     o1.stall()
+    m1.moving()
+    
 
 
 
@@ -192,6 +195,7 @@ class parkingstall:
             
             if(i<5):
                 
+                rand=int(random(1,6))
                 if(i==0):
                     x=115
                 
@@ -322,5 +326,49 @@ class parkingstall:
 o1=parkingstall()
 
         
+class move:
     
+    
+    def __init__(self,x1,y1,x2,y2,counter):
+        
+        self.x1=x1
+        self.y1=y1
+        self.x2=x2
+        self.y2=y2
+        self.counter=counter
+    
+    
+    def moving(self):
+        
+        fill(31,222,220)
+        
+        if(self.x1>1900):  
+                  
+            self.x1=0
+            
+        if(self.x1==950):
+            choice=int(random(1,3))
+            if(choice==2):
+                self.x1=0
+                self.counter+=1
+                
+
+            
+        rect(self.x1,self.y1,80,60)
+        self.x1+=50
+    
+    
+        if(self.x2>1900):  
+                  
+            self.x2=850
+            
+        rect(self.x2,self.y2,80,60)
+        self.x2+=50
+        fill(255)
+        
+        print("NUMBER OF CARS:",self.counter)
+        
+        
+    
+m1=move(0,205,850,890,0)
     
