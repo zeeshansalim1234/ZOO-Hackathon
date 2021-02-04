@@ -14,12 +14,12 @@ Run animation.pyde in Processing (Python version)
 
 1. Randomly parks/unparks cars into and from the parking lot.
 2. Vacant parkings are assigned green color.
-3. Ocuupied parkings are assigned red color.
+3. Occupied parkings are assigned red color.
 4. Displays simulation values like : 
    (i) Total number of customers
    (ii) Net revenue calculated 
-   (ii) Available spaces
-   (ii) Occupied spaces
+   (iii) Available spaces
+   (iv) Occupied spaces
 5. Function gate which opens and closes depending on wether tha car enters or passes by the parking lot.
 
 
