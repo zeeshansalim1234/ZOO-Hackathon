@@ -1,9 +1,10 @@
-# ZOO-Hackathon 
+## Parking Lot Simulation
 
 ![zoom_0_2](https://user-images.githubusercontent.com/59512700/106832409-ddd2e400-664e-11eb-8d19-ed4e0da866bd.gif)
 
 
-Parking Lot simulation 
+
+
 
 Run the animation.pyde file on processing
 
